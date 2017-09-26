@@ -11,6 +11,7 @@ require.config({
 		form: 'jquery-form/jquery.form',
 		uploadify: 'uploadify/jquery.uploadify.min',
 		region: 'jquery-region/jquery.region',
+		ckeditor: 'ckeditor/ckeditor',
 		util: '../js/util',
 		common: '../js/common',
 		login: '../js/login',
@@ -23,13 +24,16 @@ require.config({
 			deps: ['jquery']
 		},
 		language: {
-			deps : ['jquery','datepicker']
+			deps: ['jquery', 'datepicker']
 		},
-		validate : {
+		validate: {
 			deps: ['jquery']
 		},
-		uploadify :{
+		uploadify: {
 			deps: ['jquery']
+		},
+		ckeditor:{
+			exports: 'CKEDITOR'
 		}
 
 	}
