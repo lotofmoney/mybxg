@@ -12,6 +12,7 @@ define(['jquery','template','util'],function($,template,util){
         data:{cs_id:csId},
         dataType:'json',
         success:function(data){
+            console.log(data);
             if(flag){
                 data.result.operate = '课程编辑';
             }else{
