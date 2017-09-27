@@ -58,6 +58,8 @@ define(['jquery', 'template', 'ckeditor', 'uploadify', 'region', 'datepicker', '
                             }
                         }
                     });
+
+                    
                 }
             });
         }
